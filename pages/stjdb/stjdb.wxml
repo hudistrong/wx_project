@@ -1,0 +1,30 @@
+<view class="container">
+    <view class="head-num">
+        <text class="win-text">胜： {{win}}</text>
+        <text class="lose-text">负： {{lose}}</text>
+    </view>
+    <view class="head-text">
+        <image class="choose_image" src="/images/{{image_tag[n]}}.jpg"></image>
+    </view>
+    <view class="middle-text">
+        <image class="choose_image" src="/images/{{image_tag[m-1]}}.jpg"></image>
+    </view>
+    <view class="choose_button">
+        <block wx:for="{{arr}}" wx:for-item="a" wx:key="*this">
+            <view data-hi="{{a}}" bindtap="getStart">
+                <button><image class="choose_image" src="/images/{{image_tag[a-1]}}.jpg"></image></button>
+            </view>     
+        </block>
+    </view>
+
+    <modal
+        hidden="{{hiddenModal}}"
+        confirm-text="确定"
+        cancel-text="取消"
+        bindconfirm="listenerConfirm"
+        bindcancel="listenerCancel"
+    >
+    <image wx:if="{{!result_text}}" class="result_image" src="/images/D7T9j7Pk.png"></image>
+    <image wx:if="{{result_text}}" class="result_image" src="/images/images.jpeg"></image>
+    </modal>
+</view>

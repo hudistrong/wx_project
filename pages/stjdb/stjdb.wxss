@@ -1,0 +1,43 @@
+.choose_button view {
+    float: left;
+    margin: 10px;
+    margin-top: 50px;
+    border: 1px solid rgb(9, 187, 7);
+    border-radius: 5px;
+}
+.choose_button button {
+    width: 51px;
+    height: 51px;
+    padding-left: 0px;
+}
+.head-text{
+    background-color: lightblue;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin:10px;
+}
+.middle-text{
+    background-color: lightgoldenrodyellow;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin:10px;
+}
+.choose_image{
+    width: 50px;
+    height: 50px;
+}
+.result_image{
+    width: 100%;
+}
+.head-num{
+    padding: 10px;
+}
+.win-text{
+    color: green;
+    margin-right: 20px;
+}
+.lose-text{
+    color: red;
+}

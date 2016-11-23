@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test",
+    "pages/stjdb/stjdb"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "lightblue",
+    "navigationBarTitleText": "石头剪刀布",
+    "navigationBarTextStyle":"black"
+  }
+}
