@@ -12,7 +12,7 @@
     <view class="choose_button">
         <block wx:for="{{arr}}" wx:for-item="a" wx:key="*this">
             <view data-hi="{{a}}" bindtap="getStart">
-                <button><image class="choose_image" src="/images/{{image_tag[a-1]}}.jpg"></image></button>
+                <button style="background-color: {{choose_color}};"><image class="choose_image" src="/images/{{image_tag[a-1]}}.jpg"></image></button>
             </view>     
         </block>
     </view>

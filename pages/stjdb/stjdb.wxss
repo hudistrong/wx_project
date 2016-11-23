@@ -6,8 +6,8 @@
     border-radius: 5px;
 }
 .choose_button button {
-    width: 51px;
-    height: 51px;
+    width: 52px;
+    height: 52px;
     padding-left: 0px;
 }
 .head-text{

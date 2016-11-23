@@ -1,9 +1,10 @@
 {
   "pages":[
+    "pages/stjdb/stjdb",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/test/test",
-    "pages/stjdb/stjdb"
+    "pages/test/test"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",

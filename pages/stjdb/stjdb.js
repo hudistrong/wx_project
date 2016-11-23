@@ -7,9 +7,11 @@ Page({
         lose: 0,
         hiddenModal: true,
         result_text: false,
-        image_tag: ["4777971", "4777970", "4777969"]
+        image_tag: ["4777971", "4777970", "4777969"],
+        choose_color: "white"
     },
     getStart: function(eventTarget) {
+        this.setData({choose_color: "lightblue"});
         var arr = [1,2,3];
         var m = eventTarget.currentTarget.dataset.hi;
         var n = Math.floor(Math.random() * arr.length + 1)-1;
@@ -38,6 +40,7 @@ Page({
                 }
             }
         }
+        this.setData({choose_color: "white"});
     },
     listenerButton:function(){
         this.setData({
